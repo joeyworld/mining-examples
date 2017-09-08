@@ -9,6 +9,5 @@ script:
   - python week1/__init__.py
   - python week1/json_example.py
   - python week1/numpy_example.py
-  - python week1/plot_example.py
   - python week1/requestlib.py
   - python week1/table.py
