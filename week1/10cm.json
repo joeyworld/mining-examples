@@ -1,0 +1,12 @@
+{
+  "name": "10cm",
+  "members": [
+    "권정열"
+  ],
+  "company": "Magic Strawberry Sound",
+  "genre": "indie",
+  "albums": {
+    "regular": 4,
+    "singles_ep": 6
+  }
+}
