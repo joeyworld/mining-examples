@@ -1,4 +1,7 @@
 # 반바지 소셜 마이닝
+
+[![Build Status](https://travis-ci.org/bbjmining/examples.svg?branch=master)](https://travis-ci.org/bbjmining/examples)
+
 소모임 시간때 한 예제 코드들 여기서도 보실 수 있습니다!
 
 ## 코드 다운로드
