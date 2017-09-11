@@ -1,0 +1,25 @@
+{
+  "id": "567212093408816",
+  "name": "최병규",
+  "friends": {
+    "data": [
+      {
+        "name": "MooYeol Prescott Lee",
+        "id": "100000813495758"
+      },
+      {
+        "name": "MinWhoan Evan Kim",
+        "id": "768576603216347"
+      }
+    ],
+    "paging": {
+      "cursors": {
+        "before": "QVFIUmRaNmRWWFN6TnNqaUQ0QmU0ODlyblRMVENNQnR0MzhaMlZATbmNJalRpNmItMHVTajBPWVBNRDJtUi1nN3ZAjb2xfRFpjUVlac1UySXdYbTNjQ1lqTDhB",
+        "after": "QVFIUlp6TzdFLWpEanQ1WlBuaXRpLWtTVkZASMmpzNDU1T1ZAsVEcwcmVjcFpaU2xiZA202NjdUYjllWVJwLXdVRU1Tb195el9zMzlRQjY1d0h4VXJMbnByOVBn"
+      }
+    },
+    "summary": {
+      "total_count": 267
+    }
+  }
+}
