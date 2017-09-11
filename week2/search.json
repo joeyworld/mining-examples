@@ -1,0 +1,136 @@
+{
+    "data": [
+        {
+            "name": "건국대학교",
+            "likes": 19192,
+            "id": "345195185558175"
+        },
+        {
+            "name": "건국대학교 대나무숲",
+            "likes": 24308,
+            "id": "673218532724299"
+        },
+        {
+            "name": "건국대학교 총학생회",
+            "likes": 7175,
+            "id": "269853983168516"
+        },
+        {
+            "name": "건국대학교 중앙힙합동아리 Wanna Family",
+            "likes": 974,
+            "id": "231482853607215"
+        },
+        {
+            "name": "멋쟁이사자처럼 at 건국대학교",
+            "likes": 404,
+            "id": "903616499756602"
+        },
+        {
+            "name": "건국대학교",
+            "likes": 10269,
+            "id": "169205666471079"
+        },
+        {
+            "name": "건국대학교 소프트웨어융합학부",
+            "likes": 726,
+            "id": "1394383430862389"
+        },
+        {
+            "name": "건국대학교 학생복지위원회",
+            "likes": 4141,
+            "id": "1494013394220446"
+        },
+        {
+            "name": "건국대학교 아마추어 오케스트라 KUPhil",
+            "likes": 122,
+            "id": "927925330676210"
+        },
+        {
+            "name": "건국대학교 돼나무숲",
+            "likes": 4948,
+            "id": "533794976755463"
+        },
+        {
+            "name": "건국대학교 쿵 KUNG",
+            "likes": 4609,
+            "id": "744284529048284"
+        },
+        {
+            "name": "건국대학교 국제처 / Office of International Affairs, Konkuk University",
+            "likes": 2745,
+            "id": "364549316955788"
+        },
+        {
+            "name": "건국대학교 고전음악감상실",
+            "likes": 714,
+            "id": "583632581655835"
+        },
+        {
+            "name": "건국대학교 경영대학 학생회",
+            "likes": 974,
+            "id": "178666405820823"
+        },
+        {
+            "name": "건국대학교 상허생명과학대학 학생회",
+            "likes": 653,
+            "id": "907706902663737"
+        },
+        {
+            "name": "건국대학교 미디어커뮤니케이션학과",
+            "likes": 525,
+            "id": "273702582806753"
+        },
+        {
+            "name": "건국대학교 융합과학기술원 학생회",
+            "likes": 469,
+            "id": "1894577200775637"
+        },
+        {
+            "name": "건국대학교 재학생 자문단 I KU Core",
+            "likes": 1422,
+            "id": "346517442107812"
+        },
+        {
+            "name": "건국대학교 도서관자치위원회",
+            "likes": 1948,
+            "id": "533980513419514"
+        },
+        {
+            "name": "건국대학교 쿵 KUNG",
+            "likes": 2867,
+            "id": "161852167481945"
+        },
+        {
+            "name": "건국대학교 建国大学校 Konkuk University",
+            "likes": 502,
+            "id": "320414601400053"
+        },
+        {
+            "name": "건국대학교 서울캠퍼스 홍보대사 건우건희",
+            "likes": 6415,
+            "id": "512133285494742"
+        },
+        {
+            "name": "건국대학교 식량자원과학과",
+            "likes": 340,
+            "id": "175290459234424"
+        },
+        {
+            "name": "건국대학교 경영학과 학생회",
+            "likes": 481,
+            "id": "1234232739924228"
+        },
+        {
+            "name": "건국대학교 소프트웨어학과 학생회",
+            "likes": 286,
+            "id": "566606480144795"
+        }
+    ],
+    "paging": {
+        "cursors": {
+            "before": "MAZDZD",
+            "after": "MjQZD"
+        },
+        "next": "https://graph.facebook.com/v2.4/search?access_token=EAACEdEose0cBALsX7DkHb5ZCmnVtHbtfyXuvCl2BpJwspHmHmEcce8mA5jJmqXWSMx9lawkLg2I4t3edurEPviOZAbpSsA7ZCLBQv6NkZCsQmpf33PXqpbmsK7ZBZC5KjJb3ZAvRx2bCn6EQfETy0FpDz5WZAWdXBiqRoObGLiVTbqUekJsMc6Q6hXA6O6QL97gZD&fields=name%2C+likes&q=%EA%B1%B4%EA%B5%AD%EB%8C%80%ED%95%99%EA%B5%90&type=page&limit=25&after=MjQZD"
+    }
+}
