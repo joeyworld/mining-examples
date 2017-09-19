@@ -1,12 +1,11 @@
 import json
 import requests
 
-ACCESS_TOKEN = 'EAACEdEose0cBAHreztuVnbeNCaatFMP2bhe4arZBsmF4Ii3idenhkXUqVBKxTV2dex3ocHAMi67TjY5XxDzpSj6SgZBZBqloKqxng1Ex0cEdRR89rWOtu1pD8NqdYKaFSZAJdzzZCN6Nmxcr5b8wPGu30eZBzZBXZC2kb9ZCWMckYhQhFkGfMlR0ibAkkViQY8O4ZD'
+ACCESS_TOKEN = 'YOUR_ACCESS_TOKEN'
 base_url = 'https://graph.facebook.com/'
 fields = 'id, name, likes.fields(name,category), friends.fields(id, name, likes.fields(name, category))'
 response = requests.get('{}me?fields={}&access_token={}'.format(base_url, fields, ACCESS_TOKEN)).json()
 
-print(response)
 # 나에 대한 좋아요 가져오기
 my_likes = response['likes']
 next_url = my_likes['paging']['next']
