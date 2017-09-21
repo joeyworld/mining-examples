@@ -2,9 +2,12 @@ import requests
 import facebook
 from prettytable import PrettyTable
 
-ACCESS_TOKEN = 'EAACEdEose0cBALsX7DkHb5ZCmnVtHbtfyXuvCl2BpJwspHmHmEcce8mA5jJmqXWSMx9lawkLg2I4t3edurEPviOZAbpSsA7ZCLBQv6NkZCsQmpf33PXqpbmsK7ZBZC5KjJb3ZAvRx2bCn6EQfETy0FpDz5WZAWdXBiqRoObGLiVTbqUekJsMc6Q6hXA6O6QL97gZD'
+# 연습문제 3 - "건국대학교" 키워드로 페이지 검색 후 좋아요 순으로 표 그리기
+
+ACCESS_TOKEN = 'YOUR_ACCESS_TOKEN'
 api = facebook.GraphAPI(access_token=ACCESS_TOKEN)
 
+# 검색 쿼리 만들어서 검색하기
 args = {
     'type': 'page',
     'q': '건국대학교',
@@ -13,11 +16,7 @@ args = {
 search_result = api.request('search', args)
 data = search_result['data']
 
-
-def key(element):
-    return element['likes']
-
-
+# Paging 활용하여 모든 검색 결과 수집하기
 while True:
     try:
         search_result = requests.get(search_result['paging']['next']).json()
@@ -25,8 +24,10 @@ while True:
     except KeyError:
         break
 
-data = sorted(data, key=lambda datum: datum['likes'], reverse=True)
+# 좋아요 순으로 정렬
+data = sorted(data, key=lambda x: x['likes'], reverse=True)
+# 표로 그리기!
 table = PrettyTable(field_names=['name', 'likes'])
-for datum in data[:100]:
+for datum in data[:50]:
     table.add_row([datum['name'], datum['likes']])
 print(table)
