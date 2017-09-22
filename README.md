@@ -11,7 +11,7 @@ $ git clone https://github.com/bbjmining/examples.git
 ```
 코드 다운받으시고 패키지들을 설치하셔야 정상 실행됩니다! 다운받으신후에,
 ```
-$ pip install requirements.txt
+$ pip install -r requirements.txt
 ```
 한번씩 눌러주세요!  
 
