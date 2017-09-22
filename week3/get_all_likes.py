@@ -2,8 +2,8 @@ import json
 import requests
 
 ACCESS_TOKEN = 'YOUR_ACCESS_TOKEN'
-base_url = 'https://graph.facebook.com/'
-fields = 'id, name, likes.fields(name,category), friends.fields(id, name, likes.fields(name, category))'
+base_url = 'https://graph.facebook.com/v2.10/'
+fields = 'name, likes.fields(name, category, fan_count), friends.fields(name, likes.fields(name, category, fan_count))'
 response = requests.get('{}me?fields={}&access_token={}'.format(base_url, fields, ACCESS_TOKEN)).json()
 
 # 나에 대한 좋아요 가져오기
@@ -22,7 +22,8 @@ while True:
 data = [
     {
         'name': response['name'],
-        'likes': my_likes['data']
+        'likes': my_likes['data'],
+        'total_count': len(my_likes['data'])
     }
 ]
 
@@ -48,7 +49,8 @@ for friend in friends:
         except KeyError:
             friend_info = {
                 'name': friend_name,
-                'likes': friends_likes['data']
+                'likes': friends_likes['data'],
+                'total_count': len(friends_likes['data'])
             }
             data.append(friend_info)
             break
