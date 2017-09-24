@@ -1,6 +1,6 @@
 # 반바지 소셜 마이닝
 
-[![Build Status](https://travis-ci.org/bbjmining/examples.svg?branch=master)](https://travis-ci.org/bbjmining/examples)
+[![Build Status](https://travis-ci.org/gyukebox/gyulog.svg?branch=master)](https://travis-ci.org/gyukebox/gyulog)
 
 소모임 시간때 한 예제 코드들 여기서도 보실 수 있습니다!
 
@@ -11,7 +11,7 @@ $ git clone https://github.com/bbjmining/examples.git
 ```
 코드 다운받으시고 패키지들을 설치하셔야 정상 실행됩니다! 다운받으신후에,
 ```
-$ pip install requirements.txt
+$ pip install -r requirements.txt
 ```
 한번씩 눌러주세요!  
 
