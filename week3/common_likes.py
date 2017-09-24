@@ -12,7 +12,8 @@ combinations = [(people[person1], people[person2])
 # 공통 좋아요 찾아서 표로 그리기
 for combo in combinations:
     table = PrettyTable(field_names=['{}와 {}의 공통 좋아요'.format(combo[0]['name'], combo[1]['name'])])
-    union = list(set(likes['name'] for likes in combo[0]['likes']) & set(likes['name'] for likes in combo[1]['likes']))
-    for element in union:
+    intersection = list(set(likes['name'] for likes in combo[0]['likes']) & set(likes['name'] for likes in combo[1]['likes']))
+    for element in intersection:
         table.add_row((element, ))
     print(table)
+

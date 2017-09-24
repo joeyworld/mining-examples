@@ -1,4 +1,7 @@
-a = [1, 2, 3, 4, 5]
-length = len(a)
-combinations = [(i, j) for i in range(length) for j in range(i, length)]
-print(combinations)
+import numpy as np
+from collections import Counter
+
+a = np.random.randint(1, 101, 100)
+print(a)
+count_a = Counter(a)
+print(count_a)
