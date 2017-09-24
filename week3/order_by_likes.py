@@ -13,9 +13,9 @@ for person in people:
     person_likes = person['likes']
     person_likes.sort(key=lambda x: x['fan_count'], reverse=True)
 
-    table = PrettyTable(field_names=['Page name', 'Likes'])
+    table = PrettyTable(field_names=['Page name', 'Page Category', 'Likes'])
     for page in person_likes:
-        table.add_row([page['name'], page['fan_count']])
+        table.add_row([page['name'], page['category'], page['fan_count']])
     print(table)
     print()
 

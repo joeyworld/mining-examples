@@ -14,7 +14,6 @@ pages_count = Counter(all_pages)
 table = PrettyTable(field_names=['페이지 이름', '좋아요 누른 친구 수'])
 for kv in pages_count.most_common(20):
     table.add_row(kv)
-table.align['페이지 이름'] = 'c'
-table.align['좋아요 누른 친구 수'] = 'r'
+table.align = 'c'
 
 print(table)
